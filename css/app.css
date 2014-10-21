@@ -23,3 +23,7 @@ div#header {
 div#footer p {
 	font-size: 60%;
 }
+
+p.caption {
+	margin-top: 0.625rem;
+}
