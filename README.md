@@ -9,3 +9,5 @@ The shopping cart is [Snipcart](https://snipcart.com/).
 Fonts are served through [Typekit](https://typekit.com/).
 
 Analytics go through [Google](http://www.google.com/analytics/).
+
+Icon font is [Font Awesome](http://fortawesome.github.io/).
