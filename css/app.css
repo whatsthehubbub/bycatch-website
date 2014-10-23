@@ -1263,6 +1263,7 @@ button, .button {
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
+  letter-spacing: 0.05rem;
   text-align: center;
   -webkit-appearance: none;
   -webkit-border-radius: 0;
