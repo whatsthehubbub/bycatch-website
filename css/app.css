@@ -1262,6 +1262,7 @@ button, .button {
   margin: 0 0 1.25rem;
   position: relative;
   text-decoration: none;
+  text-transform: uppercase;
   text-align: center;
   -webkit-appearance: none;
   -webkit-border-radius: 0;
