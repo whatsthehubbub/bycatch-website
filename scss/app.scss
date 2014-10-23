@@ -43,10 +43,11 @@ div#header {
 	margin-top: 1.25rem;
 }
 
-div#footer p {
-//	font-size: $small-font-size;
-}
-
 p.caption {
 	margin-top: 0.625rem;
+}
+
+.button {
+	text-transform: uppercase;
+	letter-spacing: 0.05rem;
 }
