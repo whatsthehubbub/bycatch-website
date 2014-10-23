@@ -32,10 +32,9 @@
   <link type="text/css" id="snipcart-theme" href="https://app.snipcart.com/themes/base/snipcart.css" rel="stylesheet" />
   
   <script type="text/javascript">
-    $(document).ready(function() {
-      if (window.location.protocol != "https:")
-        window.location.protocol = "https";
-    });
+    var host = "bycat.ch";
+    if ((host == window.location.host) && (window.location.protocol != "https:"))
+      window.location.protocol = "https";
   </script>
 </head>
 <body>
