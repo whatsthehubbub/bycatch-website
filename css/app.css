@@ -40,17 +40,9 @@ body {
   color: #222;
   padding: 0;
   margin: 0;
-body {
-  background: #eee;
-  color: #222;
-  padding: 0;
-  margin: 0;
-  font-family: "franklin-gothic-urw-cond",sans-serif;
-  font-style: normal;
+  font-family: "franklin-gothic-urw-cond", sans-serif;
   font-weight: 400;
-  line-height: 1.5;
-  position: relative;
-  cursor: auto; }
+  font-style: normal;
   line-height: 1.5;
   position: relative;
   cursor: auto; }
@@ -872,7 +864,7 @@ select {
       color: #222222;
       padding: 1rem;
       display: block;
-      font-family: "courier-prime", monospace;
+      font-family: "franklin-gothic-urw-cond", sans-serif;
       font-size: 1rem; }
       .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
         background: #e3e3e3; }
@@ -1264,7 +1256,7 @@ button, .button {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
-  font-family: "courier-prime", monospace;
+  font-family: "franklin-gothic-urw-cond", sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -2506,7 +2498,7 @@ select {
   border-color: #cccccc;
   padding: 0.5rem;
   font-size: 0.875rem;
-  font-family: "courier-prime", monospace;
+  font-family: "franklin-gothic-urw-cond", sans-serif;
   color: rgba(0, 0, 0, 0.75);
   line-height: normal;
   border-radius: 0;
@@ -2910,7 +2902,7 @@ label.error {
 
 .label {
   font-weight: normal;
-  font-family: "courier-prime", monospace;
+  font-family: "franklin-gothic-urw-cond", sans-serif;
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -3234,11 +3226,11 @@ ul.pagination {
 /* Panels */
 .panel {
   border-style: solid;
-  border-width: 0px;
+  border-width: 1px;
   border-color: #d8d8d8;
   margin-bottom: 1.25rem;
   padding: 1.25rem;
-  background: #fff;
+  background: #f2f2f2;
   color: #333333; }
   .panel > :first-child {
     margin-top: 0; }
@@ -3290,7 +3282,7 @@ ul.pagination {
     color: #EEEEEE;
     font-weight: normal;
     font-size: 1rem;
-    font-family: "courier-prime", monospace; }
+    font-family: "franklin-gothic-urw-cond", sans-serif; }
   .pricing-table .price {
     background-color: #F6F6F6;
     padding: 0.9375rem 1.25rem;
@@ -3298,7 +3290,7 @@ ul.pagination {
     color: #333333;
     font-weight: normal;
     font-size: 2rem;
-    font-family: "courier-prime", monospace; }
+    font-family: "franklin-gothic-urw-cond", sans-serif; }
   .pricing-table .description {
     background-color: #FFFFFF;
     padding: 0.9375rem;
@@ -3569,7 +3561,7 @@ dialog {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: outside;
-  font-family: "courier-prime", monospace; }
+  font-family: "franklin-gothic-urw-cond", sans-serif; }
   .side-nav li {
     margin: 0 0 0.4375rem 0;
     font-size: 0.875rem;
@@ -3585,7 +3577,7 @@ dialog {
     .side-nav li.active > a:first-child:not(.button) {
       color: #e06c62;
       font-weight: normal;
-      font-family: "courier-prime", monospace; }
+      font-family: "franklin-gothic-urw-cond", sans-serif; }
     .side-nav li.divider {
       border-top: 1px solid;
       height: 0;
@@ -3695,7 +3687,7 @@ dialog {
     display: inline;
     margin-left: 1rem;
     margin-bottom: 0.625rem;
-    font-family: "courier-prime", monospace;
+    font-family: "franklin-gothic-urw-cond", sans-serif;
     font-weight: normal;
     font-size: 0.875rem;
     color: #999999; }
@@ -3861,7 +3853,7 @@ table {
       background-color: #EFEFEF;
       color: #222222;
       padding: 1rem 2rem;
-      font-family: "courier-prime", monospace;
+      font-family: "franklin-gothic-urw-cond", sans-serif;
       font-size: 1rem; }
       .tabs dd > a:hover, .tabs .tab-title > a:hover {
         background-color: #e1e1e1; }
@@ -4159,7 +4151,7 @@ meta.foundation-mq-topbar {
       color: #FFFFFF;
       padding: 12px 0 12px 0;
       padding-left: 15px;
-      font-family: "courier-prime", monospace;
+      font-family: "franklin-gothic-urw-cond", sans-serif;
       font-size: 0.8125rem;
       font-weight: normal;
       text-transform: none; }
@@ -4646,7 +4638,7 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "courier-prime", monospace;
+  font-family: "franklin-gothic-urw-cond", sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #222222;
@@ -5571,9 +5563,6 @@ th.hide-for-touch {
 
 div#header {
   margin-top: 1.25rem; }
-
-div#footer p {
-  font-size: 60%; }
 
 p.caption {
   margin-top: 0.625rem; }

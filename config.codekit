@@ -3605,6 +3605,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/bycatch-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 101347,
+		"inputAbbreviatedPath": "\/img\/bycatch-logo.png",
+		"outputAbbreviatedPath": "\/img\/bycatch-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/BYCATCH-mockup-01-16x9.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
