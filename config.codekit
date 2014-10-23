@@ -3605,13 +3605,13 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/img\/bycatch-logo.png": {
-		"fileType": 32768,
+	"\/img\/BYCATCH-mockup-01-16x9.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 428108,
-		"inputAbbreviatedPath": "\/img\/bycatch-logo.png",
-		"outputAbbreviatedPath": "\/img\/bycatch-logo.png",
+		"initialSize": 891353,
+		"inputAbbreviatedPath": "\/img\/BYCATCH-mockup-01-16x9.jpg",
+		"outputAbbreviatedPath": "\/img\/BYCATCH-mockup-01-16x9.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
