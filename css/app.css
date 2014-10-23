@@ -3225,12 +3225,12 @@ ul.pagination {
 
 /* Panels */
 .panel {
-  border-style: solid;
+  border-style: none;
   border-width: 1px;
-  border-color: #d8d8d8;
+  border-color: #e3e3e3;
   margin-bottom: 1.25rem;
   padding: 1.25rem;
-  background: #f2f2f2;
+  background: #fff;
   color: #333333; }
   .panel > :first-child {
     margin-top: 0; }
@@ -3244,7 +3244,7 @@ ul.pagination {
     .panel h1.subheader, .panel h2.subheader, .panel h3.subheader, .panel h4.subheader, .panel h5.subheader, .panel h6.subheader {
       line-height: 1.4; }
   .panel.callout {
-    border-style: solid;
+    border-style: none;
     border-width: 1px;
     border-color: #f3c7c4;
     margin-bottom: 1.25rem;

@@ -955,6 +955,11 @@ $body-font-style: normal;
 // $panel-border-style: solid;
 // $panel-border-size: 1px;
 
+$panel-bg: #fff;
+$panel-border-style: none;
+// $panel-border-size: 1px;
+
+
 // We use this % to control how much we darken things on hover
 // $panel-function-factor: -11%;
 // $panel-border-color: scale-color($panel-bg, $lightness: $panel-function-factor);
