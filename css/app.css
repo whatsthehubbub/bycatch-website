@@ -5565,7 +5565,8 @@ div#header {
   margin-top: 1.25rem; }
 
 p.caption {
-  margin-top: 0.625rem; }
+  margin-top: 0.625rem;
+  font-style: italic; }
 
 .button {
   text-transform: uppercase;
