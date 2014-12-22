@@ -41,7 +41,7 @@
   <div class="row" id="header">
     <div class="small-12 large-9 small-centered columns">
       
-      <p class="text-center" id="quote">“Bycatch smartly distills drone warfare into a card game” – <a href="http://killscreendaily.com/articles/bycatch-smartly-distills-drone-warfare-card-game/">Zach Budgor, Kill Screen</a></p>
+      <p class="text-center" id="quote">“Bycatch smartly distills drone warfare into a card game” – <a href="http://killscreendaily.com/articles/bycatch-smartly-distills-drone-warfare-card-game/" onclick="trackOutboundLink('http://killscreendaily.com/articles/bycatch-smartly-distills-drone-warfare-card-game/'); return false;">Zach Budgor, Kill Screen</a></p>
       <!-- Via http://stackoverflow.com/a/669847/1469081 -->
       <h1>
         <img src="img/bycatch-logo.png" alt="Bycatch" />
@@ -63,7 +63,7 @@
         data-item-price="15.00"
         data-item-url="https://bycat.ch"><i class="fa fa-shopping-cart fa-lg"></i> Pre-order</a>
 
-        <p>or <a href="http://eepurl.com/6oqyX">sign up for our newsletter <i class="fa fa-envelope"></i></a></p>
+        <p>or <a href="http://eepurl.com/6oqyX" onclick="trackOutboundLink('http://eepurl.com/6oqyX'); return false;">sign up for our newsletter <i class="fa fa-envelope"></i></a></p>
       </div>
 
     </div>
@@ -103,22 +103,37 @@
   <div class="row">
     <div class="small-12 medium-7 large-7 small-centered columns"> 
       <ul class="button-group radius even-2">
-        <li><a href="mailto:bycatch@hubbub.eu" class="button small"><i class="fa fa-envelope fa-lg"></i> Send us an email</a></li>
-        <li><a href="https://twitter.com/bycatchgame" class="button small"><i class="fa fa-twitter fa-lg"></i> Follow us on Twitter</a></li>
+        <li><a href="mailto:bycatch@hubbub.eu" class="button small" onclick="trackOutboundLink('mailto:bycatch@hubbub.eu'); return false;"><i class="fa fa-envelope fa-lg"></i> Send us an email</a></li>
+        <li><a href="https://twitter.com/bycatchgame" class="button small" onclick="trackOutboundLink('https://twitter.com/bycatchgame'); return false;"><i class="fa fa-twitter fa-lg"></i> Follow us on Twitter</a></li>
       </ul>
     </div>
   </div>
 
   <div class="row" id="footer">
     <div class="small-12 medium-9 large-7 small-centered columns">
-      <p>Made by Subalekha Udayasankar and <a href="http://hubbub.eu/">Hubbub</a>. Original idea by Subalekha Udayasankar. Game design by Subalekha Udayasankar, Alper Çugun, and Kars Alfrink. Artwork by <a href="http://www.agnesloonstra.nl/">Agnes Loonstra</a>. Graphic design by <a href="http://ponydesignclub.nl/">Pony Design Club</a>.</p>
-      <p><small><em>Bycatch</em> is &copy; 2014 <a href="http://paperequator.com/">Paper &amp; Equator</a> and <a href="http://hubbub.eu/">Hubbub</a>.</small></p>
+      <p>Made by Subalekha Udayasankar and <a href="http://hubbub.eu/" onclick="trackOutboundLink('http://hubbub.eu/'); return false;">Hubbub</a>. Original idea by Subalekha Udayasankar. Game design by Subalekha Udayasankar, Alper Çugun, and Kars Alfrink. Artwork by <a href="http://www.agnesloonstra.nl/" onclick="trackOutboundLink('http://www.agnesloonstra.nl/'); return false;">Agnes Loonstra</a>. Graphic design by <a href="http://ponydesignclub.nl/" onclick="trackOutboundLink('http://ponydesignclub.nl/'); return false;">Pony Design Club</a>.</p>
+      <p><small><em>Bycatch</em> is &copy; 2014 <a href="http://paperequator.com/" onclick="trackOutboundLink('http://paperequator.com/'); return false;">Paper &amp; Equator</a> and <a href="http://hubbub.eu/" onclick="trackOutboundLink('http://hubbub.eu/'); return false;">Hubbub</a>.</small></p>
     </div>
 
   </div>
 
   <script src="bower_components/foundation/js/foundation.min.js"></script>
   <script src="js/app.js"></script>
+
+  <script>
+  /**
+  * Function that tracks a click on an outbound link in Google Analytics.
+  * This function takes a valid URL string as an argument, and uses that URL string
+  * as the event label.
+  */
+  var trackOutboundLink = function(url) {
+     ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
+       function () {
+       document.location = url;
+       }
+     });
+  }
+  </script>
 
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
