@@ -1,6 +1,5 @@
-# codekit #
-###########
+# General CodeKit files to ignore
+config.codekit
+/min
 .sass-cache/
 .codekit-config.json
-config.codekit
-*.codekit
