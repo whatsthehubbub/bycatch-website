@@ -995,15 +995,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/bower_components\/jquery-placeholder\/demo.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery-placeholder\/demo.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/bower_components\/jquery-placeholder\/jquery.placeholder.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -1015,33 +1006,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery-placeholder\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery-placeholder\/README.md",
-		"outputAbbreviatedPath": "\/bower_components\/jquery-placeholder\/README.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/bower_components\/jquery-placeholder\/tests\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery-placeholder\/tests\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/bower_components\/jquery-placeholder\/tests\/tests.js": {
+	"\/bower_components\/jquery-placeholder\/jquery.placeholder.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery-placeholder\/tests\/tests.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery-placeholder\/tests\/min\/tests-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/jquery-placeholder\/jquery.placeholder.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/jquery-placeholder\/min\/jquery.placeholder.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -1581,6 +1551,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/event.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/event-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/jquery\/src\/event\/ajax.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/event\/ajax.js",
+		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/event\/min\/ajax-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -3645,6 +3626,28 @@
 		"initialSize": 520,
 		"inputAbbreviatedPath": "\/img\/favicon.png",
 		"outputAbbreviatedPath": "\/img\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/IMG_3688-v01-16x9.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 621434,
+		"inputAbbreviatedPath": "\/img\/IMG_3688-v01-16x9.jpg",
+		"outputAbbreviatedPath": "\/img\/IMG_3688-v01-16x9.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/IMG_3703-v01-16x9.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 466040,
+		"inputAbbreviatedPath": "\/img\/IMG_3703-v01-16x9.jpg",
+		"outputAbbreviatedPath": "\/img\/IMG_3703-v01-16x9.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
