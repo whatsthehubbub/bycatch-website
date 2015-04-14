@@ -4351,7 +4351,7 @@ table {
 .has-tip {
   border-bottom: dotted 1px #CCCCCC;
   cursor: help;
-  font-weight: bold;
+  font-weight: normal;
   color: #333333; }
   .has-tip:hover, .has-tip:focus {
     border-bottom: dotted 1px #5a1912;

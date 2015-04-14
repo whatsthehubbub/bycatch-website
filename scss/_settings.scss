@@ -95,7 +95,7 @@ $include-html-global-classes: $include-html-classes;
 // $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 
 // We use these to define default font weights
-// $font-weight-normal: normal !default;
+$font-weight-normal: normal !default;
 // $font-weight-bold: bold !default;
 
 // $white       : #FFFFFF;
@@ -1342,7 +1342,7 @@ $panel-border-style: none;
 // $include-html-tooltip-classes: $include-html-classes;
 
 // $has-tip-border-bottom: dotted 1px $iron;
-// $has-tip-font-weight: $font-weight-bold;
+$has-tip-font-weight: $font-weight-normal;
 // $has-tip-font-color: $oil;
 // $has-tip-border-bottom-hover: dotted 1px scale-color($primary-color, $lightness: -55%);
 // $has-tip-font-color-hover: $primary-color;
