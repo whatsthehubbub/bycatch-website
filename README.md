@@ -1,6 +1,6 @@
 # Bycatch website
 
-The website for the card game, which lives at https://bycat.ch/
+The website for the card game, which lives at http://bycat.ch/
 
 Hosting happens through [GitHub Pages](https://pages.github.com/).
 
