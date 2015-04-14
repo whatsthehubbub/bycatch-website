@@ -17,3 +17,5 @@ Icon font is [Font Awesome](http://fortawesome.github.io/).
 Analytics go through [Google](http://www.google.com/analytics/).
 
 Fonts are served through [Typekit](https://typekit.com/).
+
+If you want to look at this web site without going through CloudFlare go to https://whatsthehubbub.github.io/bycatch-website/
