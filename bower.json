@@ -1,0 +1,13 @@
+{
+  "name": "foundation-libsass-template",
+  "dependencies": {
+    "foundation": "^5.5.3",
+    "jquery": "^3.0.0",
+    "modernizr": "^3.3.1",
+    "jquery-placeholder": "^2.3.1"
+  },
+  "resolutions": {
+    "jquery-placeholder": "^2.3.1",
+    "modernizr": "^3.3.1"
+  }
+}
