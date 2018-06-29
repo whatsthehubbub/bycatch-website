@@ -10,11 +10,9 @@ The front-end framework is [Foundation](http://foundation.zurb.com/).
 
 For local development, please use [CodeKit](https://incident57.com/codekit/).
 
-The shopping cart is [Snipcart](https://snipcart.com/).
-
 Icon font is [Font Awesome](http://fortawesome.github.io/).
 
-Analytics go through [Google](http://www.google.com/analytics/).
+Analytics go through [Matomo](https://www.matomo.org/).
 
 Fonts are served through [Typekit](https://typekit.com/).
 
